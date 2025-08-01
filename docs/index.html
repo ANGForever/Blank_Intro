@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content=""> <!-- Will be set by js/main.js -->
+  <title></title> <!-- Will be set by js/main.js -->
+  <!-- Google Fonts will be loaded by js/main.js based on config -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+
+  <!-- Analytics scripts will be loaded by js/main.js based on config -->
+
+  <!-- Markdown解析器 -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+  
+  <!-- 配置文件 (在主程序前加载) -->
+  <script src="js/config.js"></script>
+</head>
+<body>
+  <!-- 右上角网站链接 (href and text will be set by js/main.js) -->
+  <a href="#" target="_blank" rel="noopener" class="website-link"></a>
+
+  <main>
+    <!-- 固定装饰元素 -->
+    <div class="decoration decoration-1"></div>
+    <div class="decoration decoration-2"></div>
+    
+    <!-- Markdown内容将被渲染到这里 -->
+    <div id="markdown-content"></div>
+    
+    <!-- 回到顶部按钮 -->
+    <div class="back-to-top" id="backToTop">↑</div>
+  </main>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
